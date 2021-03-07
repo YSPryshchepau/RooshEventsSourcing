@@ -13,13 +13,10 @@ func (error IncorrectIdError) Error() string {
 }
 
 type AccountNotExistsError struct {
-
 }
 
 type IncorrectAmountError struct {
-
 }
 
 type IncorrectIdError struct {
-
 }

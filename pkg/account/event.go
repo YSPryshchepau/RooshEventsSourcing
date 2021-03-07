@@ -5,7 +5,6 @@ type Event interface {
 	getId() int
 }
 
-
 func (event AccountCreated) isEvent() {
 
 }
